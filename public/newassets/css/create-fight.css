@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'genotics';
+    src: url('../fonts/genotics.ttf') format('truetype');
+  }
+
+section{
+    text-align: center;
+}
+h1{
+    font-size: 90px;
+}
+.col-md-12.text{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: left;
+    width: 50%;
+    padding: 0 3%;
+}
+.container.bullets{
+    display: flex;
+}
+
+h3 {
+    margin-top: 20px;
+}
+p {
+        font-size: 18px;
+    font-family: "futura-pt", sans-serif;
+font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.bullet{
+    border: 1px solid white;
+    background-color: grey;
+    display: inline-block; /* Damit wir die Breite und Höhe festlegen können */
+    width: 20px; /* Breite des Bullet Points */
+    height: 20px; /* Höhe des Bullet Points */
+    border-radius: 50%; /* Macht den Bullet Point kreisförmig */
+    margin-right: 5px;
+}
+li {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px; /* Abstand zwischen dem Bullet Point und dem Text */
+}
+
+.active {
+    background-color: #ff6200; /* Farbe des aktiven Bullet Points */
+}
+li{
+    font-family: 'genotics' ,sans-serif;
+color: #757575;
+    font-size: 26px;
+    transform: translateY(-3px);
+}
+input{
+    font-family: 'genotics' ,sans-serif;
+    font-size: 28px;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: none;
+}
+button{
+    margin: 5% 0 2% 0;
+    width: 100%;
+    background-color: #ff6200;
+    font-family: 'genotics' ,sans-serif;
+    color: white;
+    font-size: 38px;
+    border: none;
+}
+p{
+    color: rgba(128, 128, 128, 0.5);
+    line-height: 19px;
+}
+
+.container.bullets {
+    padding: 0px;
+}
+@media(max-width: 980px) {
+    .col-md-12.text {
+        width: 90%;
+            margin-top: 30px;
+                padding: 20px 3%;
+    }
+    .container.bullets {
+        padding: 0px;
+    }
+    input {
+        font-size: 24px;
+    }
+}

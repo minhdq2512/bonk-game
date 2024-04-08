@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <g id="Gruppe_7667" data-name="Gruppe 7667" transform="translate(-229 -50.891)">
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="21.5" cy="21.5" r="21.5" transform="translate(229 50.891)" fill="#ff6200"/>
+    <g id="wallet_1_" data-name="wallet (1)" transform="translate(236.907 58.04)">
+      <path id="XMLID_436_" d="M25.186,20.561v2.07a2.073,2.073,0,0,1-2.07,2.07H5.312A3.316,3.316,0,0,1,2,21.389V7.312A3.316,3.316,0,0,1,5.312,4H20.631a1.242,1.242,0,1,1,0,2.484H5.312a.828.828,0,0,0,0,1.656h17.8a2.073,2.073,0,0,1,2.07,2.07v2.07h-4.14a4.14,4.14,0,1,0,0,8.281Z" fill="#fff"/>
+      <path id="XMLID_438_" d="M28.625,16v4.968h-4.14a2.484,2.484,0,1,1,0-4.968Z" transform="translate(-3.439 -2.063)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

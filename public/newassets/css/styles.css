@@ -1,0 +1,661 @@
+
+
+@font-face {
+	font-family: 'babybonk';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../fonts/genotics.ttf') format('truetype');
+}
+body {
+    background-image: url("../images/background-new.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+	max-width: 1400px;
+	margin: auto;
+}
+
+
+.blockcontainer {
+	display: flex;
+	gap: 10px;
+
+}
+
+.blockbig {
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 10px;
+	min-height: 300px;
+      background-color: #00000076;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px); 
+}
+
+#news {
+    transition: 0.3s;
+}
+#news:hover {
+  background-color: #00000033;
+ }
+
+
+ #play {
+ 	background-image: url("../images/home/vsg2.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	background-position: right;
+ 	transition: 0.3s;
+ 	color: #FF6200;
+ }
+
+ #play:hover {
+ 	background-image: url("../images/home/vs.png");
+ 	background-color: #00000033;
+ 	color: #fff !important;
+ }
+
+ #quest {
+ 	background-image: url("../images/home/questg.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	background-position: right;
+ 	transition: 0.3s;
+ 	color: #7b7b7b;
+ }
+
+ #quest:hover {
+ 	background-image: url("../images/home/quest.png");
+ 	background-color: #00000033;
+ 	color: #fff !important;
+ }
+
+ #team {
+ 	background-image: url("../images/home/teamg.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	background-position: right;
+ 	transition: 0.3s;
+ 	color: #7b7b7b;
+ }
+
+ #team:hover {
+ 	background-image: url("../images/home/team.png");
+ 	background-color: #00000033;
+ 	color: #fff !important;
+ }
+
+ #docs {
+ 	background-image: url("../images/home/docsg.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	background-position: right;
+ 	transition: 0.3s;
+ 	color: #FF6200;
+  cursor: pointer;
+ }
+
+ #docs:hover {
+ 	background-image: url("../images/home/docs.png");
+ 	background-color: #00000033;
+ 	color: #fff !important;
+    cursor: pointer;
+ }
+
+  #shop {
+ 	background-image: url("../images/home/shop.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	background-position: right;
+ 	transition: 0.3s;
+ 	color: #FF6200;
+ }
+
+ #shop:hover {
+ 	background-image: url("../images/home/shop.png");
+ 	background-color: #00000033;
+ 	color: #fff !important;
+ }
+
+
+ #play p, #quest p, #team p, #shop p{
+  margin: 0px;
+   font-family: "babybonk", Sans-serif;
+   font-weight: 100;
+   font-size: 24px;
+   color: #727272;
+ }
+
+ #play p:hover, #quest p:hover, #team p:hover, #shop p:hover{
+   color: #ffffff;
+ }
+
+
+h1 {
+	    font-family: "babybonk", Sans-serif;
+	    font-size: 67px;
+	    margin: 0px;
+	    font-weight: 100;
+}
+
+h2 {
+	    font-family: "babybonk", Sans-serif;
+	    color: #fff;
+	    font-size: 47px;
+	    margin: 10px 0px;
+	    font-weight: 100;
+}
+
+h3 {
+	    font-family: "babybonk", Sans-serif;
+	    color: #fff;
+	    font-size: 32px;
+	    margin: 10px 0px;
+	    font-weight: 100;
+	    margin-top: 40px;
+}
+
+h4 {
+    font-family: "babybonk", Sans-serif;
+    color: #a6a6a6;
+    font-size: 26px;
+    margin-bottom: 7px;
+    margin-top: 0px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+p {
+    color: #A2A2A4;
+    font-size: 18px;
+    font-family: "futura-pt", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.nav {
+	text-align: center;
+	margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blockbig a {
+  color: #ff6101;
+  text-decoration: none;
+  width: -webkit-fill-available;
+  display: grid;
+  height: 100%;
+  font-family: 'genotics', sans-serif;
+  font-size: 32px;
+}
+
+
+.nav img {
+	max-width: 150px;
+}
+.tab {
+  float: left;
+    background-color: #00000076;
+  width: 20%;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px); 
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: #0000001a;
+  margin-bottom: 4px;
+  color: #fff;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 37px;
+  height: 136px;
+  font-family: "babybonk", Sans-serif;
+}
+
+.tab button:last-child {
+    margin-bottom: 0px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #3c3c3c1a;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #3c3c3c1a;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 50px;
+  background-color: #00000066;
+  width: 70%;
+  border-left: none;
+  height: 70vh;
+  overflow: auto;
+      backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px)
+ }
+
+.tabcontent h2 {
+    color: #fff;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: #00000030;
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #64686C; 
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #64686C; 
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ffffff20;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 0;
+}
+.title {
+    display: flex;
+}
+.title img {
+    width: 30px;
+    transform: translateY(-4px);
+    margin-right: 10px;
+}
+img {
+    max-width: 100%;
+}
+
+.rowsquad {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.rowsquad2 {
+    display: flex;
+    gap: 10px;
+}
+
+.rowsquad3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.textsquad h2 {
+    margin-bottom: 0px;
+}
+.rowsquad p {
+    font-size: 16px;
+    margin-top: 0px;
+}
+.rowsquad2 p {
+    font-size: 16px;
+    margin: 0px;
+}
+.rowsquad3 p{
+    font-size: 16px;
+    margin: 0px;
+}
+
+.rowsquad2 img {
+    max-width: 50px;
+}
+
+.rowsquad3 img {
+    max-width: 100px;
+}
+
+.textsquad h3 {
+    margin-top: 0px;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#background-video:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
+.overlay {
+  background:  rgba(0,0,0,0.1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 15% 32px;
+  line-height: 1.5;
+  text-align: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.slider-container{
+  display: none;
+}
+
+@media only screen and (max-width: 768px){
+      body {
+
+    background-image: url("../images/brbgm.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    }
+  /*main*/
+  .container{
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .blockbig{
+    width: auto;
+  }
+  .block{
+    width: auto;
+  }
+  /* index */
+  .blockcontainer{
+    display: block;
+    margin-top: 0px;
+  }
+  .nav{
+    display: none;
+  }
+  .tab{
+    display: none !important;
+  }
+
+  .container.mobile{
+    display: block;
+    z-index: 99;
+    position: absolute;
+  }
+  #background-video{
+    height: 100%;
+    object-fit: contain;
+    width: auto;
+  }
+
+  .tab {
+    overflow: auto;
+    box-sizing: border-box;
+    bottom: 0;
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    float: left;
+    background-color: #00000076;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+.tabcontent{
+  width: auto;
+}
+.slider-container {
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  overflow: hidden;
+  display: block;
+  padding: 5% 0;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-color: #0000004f;
+  z-index:  1;
+
+}
+
+.slider {
+  text-align: center;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.arrow {
+  position: absolute;
+  top: 30%;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 1;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.thumbnails-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider button.tablinks {
+  font-size: 40px;
+  font-family: "babybonk", Sans-serif;
+  font-weight: 100;
+  background-color: #00000000;
+  border: none !important;
+  color: #fff;
+}
+
+button#general:before {
+  content: 'Packs (NFTs)';
+  font-size: 16px;
+  margin-right: 20px;
+  color: #aaa;
+}
+button#general:after {
+  content: 'Gameplay';
+  font-size: 16px;
+  margin-left: 20px;
+  color: #aaa;
+}
+button#gameplay:before {
+  content: 'General';
+  font-size: 16px;
+  margin-right: 20px;
+  color: #aaa;
+}
+button#gameplay:after {
+  content: 'Breeds';
+  font-size: 16px;
+  margin-left: 20px;
+  color: #aaa;
+}
+button#breeds:before {
+  content: 'Gameplay';
+  font-size: 16px;
+  margin-right: 20px;
+  color: #aaa;
+}
+button#breeds:after {
+  content: 'Abilities';
+  font-size: 16px;
+  margin-left: 20px;
+  color: #aaa;
+}
+button#abilities:before {
+  content: 'Breeds';
+  font-size: 16px;
+  margin-right: 20px;
+  color: #aaa;
+}
+button#abilities:after {
+  content: 'Items';
+  font-size: 16px;
+  margin-left: 20px;
+  color: #aaa;
+}
+button#items:before {
+  content: 'Abilities';
+  font-size: 16px;
+  margin-right: 20px;
+  color: #aaa;
+}
+button#items:after {
+  content: 'Packs (NFTs)';
+  font-size: 16px;
+  margin-left: 20px;
+  color: #aaa;
+}
+button#packs:before {
+  content: 'Items';
+  font-size: 16px;
+  margin-right: 20px;
+  color: #aaa;
+}
+button#packs:after {
+  content: 'Gameplay';
+  font-size: 16px;
+  margin-left: 20px;
+  color: #aaa;
+}
+.tabcontent {
+  height: max-content;
+  overflow: visible;
+  padding: 30px;
+  padding-top: 100px;
+}
+body {
+  overflow: auto;
+}
+h2 {
+  font-size: 36px;
+}
+.rowsquad {
+  display: block;
+}
+video {
+  display: none;
+}
+.background-video {
+  display: none;
+}
+}
+#price img {
+    width: 30px;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 981px){
+  .container {
+    zoom: 0.75;
+  }
+
+  .nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .tabcontent {
+    height: 88vh;
+  }
+  .tab button {
+    height: 120px;
+  }
+}
+
+
+.overlay {
+    z-index: -1;
+      background:  rgba(0,0,0,0.3);
+}
+
+#background-video {
+    z-index: -2;
+}
+
+.block, .blockbig {
+    background-color: #00000066;
+}
+.blockbig {
+    color:  #FF6200;
+}
+
+.link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+    cursor: pointer;
+}

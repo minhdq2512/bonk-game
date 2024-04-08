@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'genotics';
+    src: url('../fonts/genotics.ttf') format('truetype');
+  }
+
+
+
+h3{
+    font-size: 25px;
+
+}
+.content p{
+    font-size: 18px;
+    font-family: "futura-pt", sans-serif;
+font-weight: 400;
+font-style: normal;
+    margin-bottom: 0px;
+    line-height: 22px;
+    color: #819195;
+}
+
+
+.content .col-4{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 32%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.stats{
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    border: 4px solid #00FF80;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    line-height: 5rem;
+    margin: auto;
+    color: #00FF80;
+}
+.stats_info{
+    color: #00FF80;
+    margin-top: 10px;
+}
+.content .container{
+    max-width: 90%;
+}
+.col-4 h3{
+    padding: 15px 0px 0px 0px;
+}
+.col-4 p{
+    font-weight: bold;
+}
+.content .col-6.images{
+    align-self: center;
+}
+.content .col-md-12{
+    padding: 5px 0;
+}
+.content .col-md-12 img{
+    width: 60px;
+}
+.content .col-md-2{
+    align-self: center;
+}
+.content .col-6.images .container{
+    padding-right: 0;
+}
+.content .col-6.images .container .col-md-12 img.mx-auto{
+    margin-right: 0 !important;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #505A5E !important;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 15px;
+    width: 0%;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 15px;
+    color: white;
+    border-radius: 0px;
+}
+
+.content .col-6.images .container {
+    margin-right: 0px;
+}
+
+.col-md-10 {
+    padding: 0px;
+}
+
+#stats p {
+    font-family: 'genotics', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+@media(max-width: 980px) {
+
+    .moonly {
+        margin-top: 30px;
+    }
+
+    .col-md-2 .row {
+        display: flex;
+        margin-top: 15px;
+    }
+    .content .col-md-12 {
+        width: 33%;
+    }
+}

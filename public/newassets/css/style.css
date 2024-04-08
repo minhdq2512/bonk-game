@@ -1,0 +1,558 @@
+@font-face {
+    font-family: 'genotics';
+    src: url('../fonts/genotics.ttf') format('truetype');
+}
+
+.fightright .playerTeam {
+    display: none;
+}
+
+@import url("https://use.typekit.net/fci8ixc.css");
+
+body {
+    background-image: url("../images/background-new.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+h1, h2, h3 {
+    font-family: 'genotics', sans-serif;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 55px;
+    line-height: 35px;
+}
+
+section {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.top_info .container .onoff {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.top_info .container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.top_info .player_info {
+    display: flex;
+    gap: 20px;
+}
+
+
+.top_info img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.top_info p {
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-20 img {
+    width: 100%;
+}
+
+.buttonorange {
+    background-color: #FF6200;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0px 5px 0px;
+}
+
+.buttonorange h3 {
+    margin-bottom: 0px;
+}
+
+#team {
+    margin-top: 30px;
+}
+
+.content {
+    background-color: #00000030;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.containermodes {
+    height: 100%;
+}
+
+.third {
+    background-color: #00000030;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 32.4%;
+}
+
+.third:hover {
+    background-color: #ff6101;
+    transition: 0.3s;
+}
+
+.third a {
+    color: #ffffff;
+    text-decoration: none;
+    width: -webkit-fill-available;
+    display: grid;
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
+    font-family: 'genotics', sans-serif;
+    font-size: 32px;
+
+}
+
+.third h2 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.third:last-child {
+    margin-bottom: 0px;
+}
+
+.catGradient {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #0071d6;
+    background-image: linear-gradient(#029bdd, #033974);
+}
+
+.borderB {
+    border-bottom: 1px solid #9c9c9e;
+}
+
+.borderT {
+    border-top: 1px solid #9c9c9e;
+}
+
+.boxSchatten {
+    box-shadow: 2px 1px 2px #888;
+}
+
+table {
+    color: #fff;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.live {
+    margin-top: 0px;
+}
+
+.trfight {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-bottom: 1px solid #ffffff26;
+}
+
+.trfight:last-child {
+    border-bottom: 0px;
+}
+
+.fightbtn {
+    background-color: #FF6200;
+    color: #fff;
+    font-family: 'genotics', sans-serif;
+    font-size: 26px;
+    padding: 12px 30px 10px 30px;
+    text-decoration: none;
+    line-height: 0px;
+}
+
+.trhead {
+
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#fightcontent {
+    max-height: 800px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #00000030;
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #64686C;
+    border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #64686C;
+}
+
+
+hr.new1 {
+    border-top: 2px solid #fff;
+}
+
+h3.bigger {
+    font-size: 48px;
+}
+
+.creator {
+    color: #ff6101;
+}
+
+@media(min-width: 981px) {
+    .moonly {
+        display: none;
+    }
+}
+
+@media(max-width:980px) {
+
+    .deskonly {
+        display: none;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+
+    body {
+
+        background-image: url("../images/brbgm.png");
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+
+    .col-20 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .section {
+        width: 90%;
+    }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    .trhead {
+        display: none;
+    }
+
+    .trfight {
+        background-color: #283239;
+        border-bottom: 0px;
+    }
+
+    #fightcontent .container {
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .fightbtn {
+        padding: 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+
+    .third a {
+        font-size: 20px;
+    }
+
+    .col-3 {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .containermodes {
+        display: flex;
+        height: auto;
+        gap: 5px;
+    }
+
+    .third {
+        height: auto;
+        padding: 15px 0px;
+        width: 33%;
+        border: 1px solid #ffffff14;
+    }
+
+    .third h2 {
+        font-size: 20px;
+    }
+
+    .third:last-child {
+        margin-bottom: 10px;
+    }
+
+    #fightcontent {
+        max-height: fit-content;
+    }
+
+    #background-video {
+        display: none;
+    }
+
+    .overlay {
+        display: none;
+    }
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#background-video:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 15% 32px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+.top_info {
+    background: #ffffff03;
+    padding: 0 10% 0 12%;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    margin-bottom: 40px;
+    box-shadow: 0px 10px 10px #0000003d;
+}
+
+.logo {
+    transform: scale(1.3);
+    margin-top: 6px;
+    text-align: center;
+
+}
+
+.logo img {
+    width: 100px !important;
+    transform: skew(20deg);
+    margin-top: 10px;
+
+}
+
+.parallelogramo {
+    width: 140px !important;
+    height: 70px !important;
+    transform: skew(-20deg);
+    background: #ff610136;
+    backdrop-filter: blur(20px);
+    border: 1px solid #ff6101;
+}
+
+.parallelogram {
+    height: -webkit-fill-available;
+    ;
+    width: 130px;
+    height: 75px;
+    transform: skew(-20deg);
+    background: #ffffff08;
+    margin-left: -18px;
+    text-align: center;
+}
+
+.parallelogramo:hover {
+    background: #FF6200;
+    transition: 0.3s;
+}
+
+.parallelogram:hover {
+    background: #FF6200;
+    transition: 0.3s;
+}
+
+.menubtns .parallelogram:hover {
+    background: #ffffff20;
+    transition: 0.3s;
+}
+
+.parallelogram h3 {
+    padding-top: 25px;
+}
+
+.leftmenu, .rightmenu {
+    display: flex;
+}
+
+
+.leftmenu a {
+    text-decoration: none;
+}
+
+.top_info .player_info {
+    display: flex;
+    gap: 20px;
+    margin-left: 43px;
+}
+
+.menubtns {
+    display: flex;
+}
+
+.menubtns img {
+    transform: skew(20deg);
+    width: 20px;
+    margin-top: 25px;
+}
+
+.menubtns .parallelogram {
+    width: 80px;
+}
+
+.topnav {
+    overflow: hidden;
+    background: #ffffff03;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.topnav img {
+    width: 70px !important;
+    transform: skew(20deg);
+    margin-top: 4px;
+
+}
+
+.menuicon img {
+    width: 30px !important;
+    transform: skew(0deg);
+}
+
+@media(max-width: 980px) {
+
+    .top_info {
+        display: none;
+    }
+
+    .parallelogramo {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+    }
+
+    .fightright .playerTeam {
+        display: block;
+    }
+}
+
+@media(min-width: 981px) {
+    .topnav {
+        display: none;
+    }
+}
+
+#getbacknow {
+    padding: 25px;
+    text-align: center;
+}
+
+.divenemy:first-child {
+    display: block !important;
+}

@@ -1,0 +1,69 @@
+section.content{
+    background-color: unset;
+}
+.col-md-6.background{
+    background-color: #0000002b;
+    height: 100%;
+    width: 49%;
+    padding-bottom: 100px;
+    padding-left: 0px;
+}
+.row.hero{
+    justify-content: space-between;
+    text-align: center;
+}
+h1{
+    margin-top: 10%;
+    font-size: 80px;
+    color: #FF6200;
+}
+.content .img-fluid{
+    width: 150px;
+}
+.content .col-md-6 .nft{
+    width: 100%;
+}
+.col-md-6.img{
+    width: 30%;
+}
+.container{
+    position: relative;
+}
+.nft-row{
+    width: 90%;
+    margin-top: 10% !important;
+    justify-content: center;
+    margin: auto;
+}
+h2.left-heading{
+    margin-bottom: 0;
+    padding: 15px 0 5px 0;;
+    background-color: #00FF80;
+    position: absolute;
+    bottom: 0;
+    width: 49% !important;
+}
+h2.right-heading{
+    margin-bottom: 0;
+    padding: 15px 0 5px 0;;
+    background-color: #FF6200;
+    position: absolute;
+    bottom: 0;
+    width: 49% !important;
+    right: 0;
+}
+
+.crop-left {
+  clip-path: inset(0 15px 0 15px);
+}
+.btnwrap {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fightbtn {
+    display: block;
+    width: 100%;
+    padding: 25px;
+}
